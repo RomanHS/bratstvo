@@ -1,0 +1,37 @@
+#p_prldr{
+width: 100%;
+height: 100%;
+position: fixed;
+left: 0;
+top: 0;
+right:0;
+bottom:0;
+background: #fff;
+z-index: 30;}
+ 
+.contpre small{font-size:25px;}
+ 
+.contpre{
+	/*border: 1px solid #333;*/
+width: 250px;
+height: 100px;
+position: absolute;
+left: 50%;top: 70%;
+margin-left:-125px;
+margin-top:-75px;
+color:#000;
+font-size:40px;
+letter-spacing:-2px;
+text-align:center;
+line-height:35px;}
+ 
+#p_prldr .svg_anm {
+	/*border: 1px solid #000;*/
+left: 40%;top: 28%;
+border-radius: 50%; 
+position: absolute;
+width: 300px;
+height: 300px;
+background: url(Черепаха.gif) center center no-repeat;
+background-size:300px;    
+margin: -16px 0 0 -16px;}

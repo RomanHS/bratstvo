@@ -1,0 +1,11 @@
+body > div:first-child {
+	display: none;
+}
+
+.cbalink{
+    display: none;
+}
+
+.cumf_bt_form_wrapper{
+    display: none;
+}

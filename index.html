@@ -2,48 +2,62 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Bratstvo</title>
+	<link rel="stylesheet" href="preloder_style.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="patch.css">
 </head>
 <body>
-	<h2>Наші випусники</h2>
-	<div>
-		
-		<div>
-			<div>
-				<img src="rkkgci23.jpg" alt="Monkey">
-				<p>Студент ЖККБП</p>
-				<p>Член общажного братства</p>
-			</div>
-			<div>
-				<blockquote>А шо я, а я нічого </blockquote><p>Філімончук Максим</p>
-			</div>
-		</div>
 
-		<div>
+	<h2>Наші випусники</h2>
+
+	<!-- <div class="content"> -->
+		<div class="content">
 			<div>
-				<img src="unnamed.jpg" alt="Tortilas">
-				<p>Студент ЖККБП</p>
-				<p>Член общажного братства</p>
+				<div>
+					<img src="rkkgci23.jpg" alt="Monkey">
+					<p>Студент ЖККБП</p>
+					<p>Член общажного братства</p>
+				</div>
+				<div>
+					<blockquote>А шо зразу я</blockquote><p>Філімончук Максим</p>
+				</div>
 			</div>
+
 			<div>
-				<blockquote>Ну нашо, нашо!!! </blockquote><p>Гриб Денис</p>
+				<div>
+					<img src="unnamed.jpg" alt="Tortilas">
+					<p>Студент ЖККБП</p>
+					<p>Член общажного братства</p>
+				</div>
+				<div>
+					<blockquote>Ну нашо, нашо!!! </blockquote><p>Гриб Денис</p>
+				</div>
+			</div>
+			
+			<div>
+				<div>
+					<img src="116677_or.jpg" alt="Goose">
+					<p>Студент ЖККБП</p>
+					<p>Член общажного братства</p>
+				</div>
+				<div>
+					<blockquote>Хочу померти</blockquote>
+					<p>Гераскевич Роман</p>
+				</div>
 			</div>
 		</div>
-		
-		<div>
-			<div>
-				<img src="116677_or.jpg" alt="Goose">
-				<p>Студент ЖККБП</p>
-				<p>Член общажного братства</p>
-			</div>
-			<div>
-				<blockquote>Хочу померти</blockquote>
-				<p>Гераскевич Роман</p>
-			</div>
-		</div>
-		
-	</div>
+	<!-- </div> -->
+
+	<div id="p_prldr"><div class="contpre"><br>Подождите<br><small>идет загрузка</small></div><span class="svg_anm"></span></div>
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript">$(window).on('load', function () {
+    var $preloader = $('#p_prldr'),
+        $svg_anm   = $preloader.find('.svg_anm');
+    $svg_anm.fadeOut();
+    $preloader.delay(500).fadeOut('slow');
+});</script>
+
 </body>
 </html>
